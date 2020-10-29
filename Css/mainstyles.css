@@ -1,0 +1,84 @@
+body{
+  font-family: 'Lobster', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover{
+  color:Yellow;
+}
+a:active{
+    color:rgba(29, 247, 5,0.8);
+}
+a:visited{
+  color:#525252;
+}
+
+p::first-letter{
+  color:#f70202;
+}
+nav.Menu{
+  font-family: 'Press Start 2P', cursive;
+  font-variant: small-caps;
+  font-size:1em;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 10px 10px 10px;
+  width:100%;
+}
+nav.Menu a:hover{
+  color:#0073ff;
+}
+nav.Menu a:visited , nav.Menu a{
+  color:#ffffff;
+}
+nav.Menu a{
+  margin: 3px;
+  margin-right: 20px;
+}
+nav.Menu a:last-child{
+  margin-right: 0;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: Red;
+  border-width: 4px;
+  width: 100%;
+}
+.My_interests details summary::-webkit-details-marker {
+  display:none;
+}
+.My_interests details summary {
+  border-bottom: 1px dotted;
+}
+a img{
+  border-width: 2px 3px 2px 3px;
+  border-style: solid dotted ;
+}
+.Contacts p::first-letter{
+  color:inherit;
+}
+.Contacts p {
+  line-height:0.5;
+}
+.Skills td{
+  border-style:inset;
+  border-width: 3px;
+  font-family: 'Press Start 2P', cursive;
+  font-size:0.7em;
+}
+.Skills th{
+  border-style:none;
+}
+.Skills table{
+  border-style:dashed;
+  border-width: 3px;
+}
+
+.Mail form{
+  background-color: rgba(255,255,255, 0.9);
+}
+.Mail form fieldset{
+  border-style: dotted;
+}
